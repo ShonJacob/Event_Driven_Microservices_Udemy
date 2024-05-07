@@ -1,0 +1,133 @@
+2024-04-27 08:04:13 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.cloud.config.password' to java.lang.String:
+
+    Property: spring.cloud.config.password
+    Value: "{cipher}3bc93279a4514bdd1abee90a4c6a2fc4d85dfee2bf4ad80915df8654384bc9be"
+    Origin: class path resource [bootstrap.yml] - 13:17
+    Reason: java.lang.UnsupportedOperationException: No decryption for FailsafeTextEncryptor. Did you configure the keystore correctly?
+
+Action:
+
+Update your application's configuration
+
+2024-04-27 08:04:41 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.cloud.config.password' to java.lang.String:
+
+    Property: spring.cloud.config.password
+    Value: "{cipher}3bc93279a4514bdd1abee90a4c6a2fc4d85dfee2bf4ad80915df8654384bc9be"
+    Origin: class path resource [bootstrap.yml] - 13:17
+    Reason: java.lang.UnsupportedOperationException: No decryption for FailsafeTextEncryptor. Did you configure the keystore correctly?
+
+Action:
+
+Update your application's configuration
+
+2024-04-27 08:05:11 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.cloud.config.password' to java.lang.String:
+
+    Property: spring.cloud.config.password
+    Value: "{cipher}3bc93279a4514bdd1abee90a4c6a2fc4d85dfee2bf4ad80915df8654384bc9be"
+    Origin: class path resource [bootstrap.yml] - 13:17
+    Reason: java.lang.UnsupportedOperationException: No decryption for FailsafeTextEncryptor. Did you configure the keystore correctly?
+
+Action:
+
+Update your application's configuration
+
+2024-04-27 09:49:49 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.cloud.config.password' to java.lang.String:
+
+    Property: spring.cloud.config.password
+    Value: "{cipher}d6048cf073509a8d541784913b6d6d9ace04913ada79b2df2814d6c5c074c8a4"
+    Origin: class path resource [bootstrap.yml] - 13:17
+    Reason: java.lang.UnsupportedOperationException: No decryption for FailsafeTextEncryptor. Did you configure the keystore correctly?
+
+Action:
+
+Update your application's configuration
+
+2024-04-27 10:40:06 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.cloud.config.password' to java.lang.String:
+
+    Property: spring.cloud.config.password
+    Value: "{cipher}d6048cf073509a8d541784913b6d6d9ace04913ada79b2df2814d6c5c074c8a4"
+    Origin: class path resource [bootstrap.yml] - 13:17
+    Reason: java.lang.UnsupportedOperationException: No decryption for FailsafeTextEncryptor. Did you configure the keystore correctly?
+
+Action:
+
+Update your application's configuration
+
+2024-04-27 10:40:42 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.cloud.config.password' to java.lang.String:
+
+    Property: spring.cloud.config.password
+    Value: "{cipher}3bc93279a4514bdd1abee90a4c6a2fc4d85dfee2bf4ad80915df8654384bc9be"
+    Origin: class path resource [bootstrap.yml] - 13:17
+    Reason: java.lang.UnsupportedOperationException: No decryption for FailsafeTextEncryptor. Did you configure the keystore correctly?
+
+Action:
+
+Update your application's configuration
+
+2024-04-27 10:41:29 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.cloud.config.password' to java.lang.String:
+
+    Property: spring.cloud.config.password
+    Value: "{cipher}3bc93279a4514bdd1abee90a4c6a2fc4d85dfee2bf4ad80915df8654384bc9be"
+    Origin: class path resource [bootstrap.yml] - 13:17
+    Reason: java.lang.UnsupportedOperationException: No decryption for FailsafeTextEncryptor. Did you configure the keystore correctly?
+
+Action:
+
+Update your application's configuration
+

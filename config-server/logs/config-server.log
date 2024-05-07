@@ -1,0 +1,1148 @@
+2024-04-27 13:03:40 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-04-27 13:03:41 [main] INFO  c.s.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2024-04-27 13:03:42 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=8ffe3a25-9917-32fe-8b04-ae4f99fb3220
+2024-04-27 13:03:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
+2024-04-27 13:03:43 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2024-04-27 13:03:43 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-27 13:03:43 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-27 13:03:43 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-27 13:03:43 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1791 ms
+2024-04-27 13:03:43 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@16d431b4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c0b51da, org.springframework.security.web.context.SecurityContextHolderFilter@4dc52559, org.springframework.security.web.header.HeaderWriterFilter@463afa6e, org.springframework.web.filter.CorsFilter@7558633, org.springframework.security.web.csrf.CsrfFilter@4c18516, org.springframework.security.web.authentication.logout.LogoutFilter@17ff8810, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@34136bd1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6d0e45a5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5657967b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@285a4fe3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@119290b9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@640d604, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61394494, org.springframework.security.web.access.ExceptionTranslationFilter@637c840d, org.springframework.security.web.access.intercept.AuthorizationFilter@26f0141]
+2024-04-27 13:03:43 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Mvc [pattern='/actuator/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-04-27 13:03:43 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Mvc [pattern='/actuator/**']
+2024-04-27 13:03:43 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Mvc [pattern='/encrypt/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-04-27 13:03:43 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Mvc [pattern='/encrypt/**']
+2024-04-27 13:03:43 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Mvc [pattern='/decrypt/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-04-27 13:03:43 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Mvc [pattern='/decrypt/**']
+2024-04-27 13:03:47 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2024-04-27 13:03:47 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
+2024-04-27 13:03:47 [main] INFO  c.s.m.d.config.server.ConfigServer - Started ConfigServer in 7.688 seconds (process running for 8.631)
+2024-04-27 13:04:40 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-27 13:04:40 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-04-27 13:04:40 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2024-04-27 13:04:48 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/var/folders/94/rw8nty8n04q8bcd5t17tm4yc0000gn/T/config-repo-14778389769684931906/config-client.yml]' via location 'file:/var/folders/94/rw8nty8n04q8bcd5t17tm4yc0000gn/T/config-repo-14778389769684931906/'
+2024-04-27 13:05:33 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/var/folders/94/rw8nty8n04q8bcd5t17tm4yc0000gn/T/config-repo-14778389769684931906/config-client-twitter_to_kafka.yml]' via location 'file:/var/folders/94/rw8nty8n04q8bcd5t17tm4yc0000gn/T/config-repo-14778389769684931906/'
+2024-04-27 13:05:33 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/var/folders/94/rw8nty8n04q8bcd5t17tm4yc0000gn/T/config-repo-14778389769684931906/config-client.yml]' via location 'file:/var/folders/94/rw8nty8n04q8bcd5t17tm4yc0000gn/T/config-repo-14778389769684931906/'
+2024-04-27 14:53:28 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-04-27 14:53:29 [main] INFO  c.s.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2024-04-27 14:53:31 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=8ffe3a25-9917-32fe-8b04-ae4f99fb3220
+2024-04-27 14:53:31 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
+2024-04-27 14:53:31 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2024-04-27 14:53:31 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-27 14:53:31 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-27 14:53:31 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-27 14:53:31 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1786 ms
+2024-04-27 14:53:32 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1788cb61, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@16d431b4, org.springframework.security.web.context.SecurityContextHolderFilter@7ccd611e, org.springframework.security.web.header.HeaderWriterFilter@51ac12ac, org.springframework.web.filter.CorsFilter@6c0b51da, org.springframework.security.web.csrf.CsrfFilter@1fb2eec, org.springframework.security.web.authentication.logout.LogoutFilter@38ac8968, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@26f0141, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@515ab3f2, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7558633, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@8b13d91, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c3d4f05, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@119290b9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5657967b, org.springframework.security.web.access.ExceptionTranslationFilter@76396509, org.springframework.security.web.access.intercept.AuthorizationFilter@28be7fec]
+2024-04-27 14:53:32 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Mvc [pattern='/actuator/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-04-27 14:53:32 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Mvc [pattern='/actuator/**']
+2024-04-27 14:53:32 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Mvc [pattern='/encrypt/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-04-27 14:53:32 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Mvc [pattern='/encrypt/**']
+2024-04-27 14:53:32 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Mvc [pattern='/decrypt/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-04-27 14:53:32 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Mvc [pattern='/decrypt/**']
+2024-04-27 14:53:35 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2024-04-27 14:53:35 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
+2024-04-27 14:53:35 [main] INFO  c.s.m.d.config.server.ConfigServer - Started ConfigServer in 7.848 seconds (process running for 8.852)
+2024-04-27 14:57:20 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-04-27 14:57:21 [main] INFO  c.s.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2024-04-27 14:57:22 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=8ffe3a25-9917-32fe-8b04-ae4f99fb3220
+2024-04-27 14:57:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
+2024-04-27 14:57:23 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2024-04-27 14:57:23 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-27 14:57:23 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-27 14:57:23 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-27 14:57:23 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1816 ms
+2024-04-27 14:57:24 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@16d431b4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c0b51da, org.springframework.security.web.context.SecurityContextHolderFilter@4dc52559, org.springframework.security.web.header.HeaderWriterFilter@463afa6e, org.springframework.web.filter.CorsFilter@7558633, org.springframework.security.web.csrf.CsrfFilter@4c18516, org.springframework.security.web.authentication.logout.LogoutFilter@17ff8810, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@34136bd1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6d0e45a5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5657967b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@285a4fe3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@119290b9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@640d604, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61394494, org.springframework.security.web.access.ExceptionTranslationFilter@637c840d, org.springframework.security.web.access.intercept.AuthorizationFilter@26f0141]
+2024-04-27 14:57:24 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Mvc [pattern='/actuator/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-04-27 14:57:24 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Mvc [pattern='/actuator/**']
+2024-04-27 14:57:24 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Mvc [pattern='/encrypt/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-04-27 14:57:24 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Mvc [pattern='/encrypt/**']
+2024-04-27 14:57:24 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Mvc [pattern='/decrypt/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-04-27 14:57:24 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Mvc [pattern='/decrypt/**']
+2024-04-27 14:57:27 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2024-04-27 14:57:27 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
+2024-04-27 14:57:27 [main] INFO  c.s.m.d.config.server.ConfigServer - Started ConfigServer in 7.752 seconds (process running for 8.709)
+2024-04-27 15:00:18 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-04-27 15:00:19 [main] INFO  c.s.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2024-04-27 15:00:20 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=8ffe3a25-9917-32fe-8b04-ae4f99fb3220
+2024-04-27 15:00:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
+2024-04-27 15:00:21 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2024-04-27 15:00:21 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-27 15:00:21 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-27 15:00:21 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-27 15:00:21 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1847 ms
+2024-04-27 15:00:21 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@16d431b4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c0b51da, org.springframework.security.web.context.SecurityContextHolderFilter@4dc52559, org.springframework.security.web.header.HeaderWriterFilter@463afa6e, org.springframework.web.filter.CorsFilter@7558633, org.springframework.security.web.csrf.CsrfFilter@4c18516, org.springframework.security.web.authentication.logout.LogoutFilter@17ff8810, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@34136bd1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6d0e45a5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5657967b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@285a4fe3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@119290b9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@640d604, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61394494, org.springframework.security.web.access.ExceptionTranslationFilter@637c840d, org.springframework.security.web.access.intercept.AuthorizationFilter@26f0141]
+2024-04-27 15:00:21 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Mvc [pattern='/actuator/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-04-27 15:00:21 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Mvc [pattern='/actuator/**']
+2024-04-27 15:00:21 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Mvc [pattern='/encrypt/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-04-27 15:00:21 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Mvc [pattern='/encrypt/**']
+2024-04-27 15:00:21 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Mvc [pattern='/decrypt/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-04-27 15:00:21 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Mvc [pattern='/decrypt/**']
+2024-04-27 15:00:25 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2024-04-27 15:00:25 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
+2024-04-27 15:00:25 [main] INFO  c.s.m.d.config.server.ConfigServer - Started ConfigServer in 7.809 seconds (process running for 8.779)
+2024-04-27 15:07:24 [http-nio-8888-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-27 15:07:24 [http-nio-8888-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-04-27 15:07:24 [http-nio-8888-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2024-04-27 15:07:46 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-04-27 15:07:47 [main] INFO  c.s.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2024-04-27 15:07:48 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=8ffe3a25-9917-32fe-8b04-ae4f99fb3220
+2024-04-27 15:07:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
+2024-04-27 15:07:49 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2024-04-27 15:07:49 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-27 15:07:49 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-27 15:07:49 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-27 15:07:49 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1875 ms
+2024-04-27 15:07:49 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5785e813, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@10b8b900, org.springframework.security.web.context.SecurityContextHolderFilter@14b4340c, org.springframework.security.web.header.HeaderWriterFilter@508ad266, org.springframework.web.filter.CorsFilter@6d294ddc, org.springframework.security.web.csrf.CsrfFilter@6c0b51da, org.springframework.security.web.authentication.logout.LogoutFilter@3fb450d7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3caee3a8, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@33d28f0a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2801827a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4270b142, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2fd9fb34, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1595d2b2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@50bc3219, org.springframework.security.web.access.ExceptionTranslationFilter@538a2f0e, org.springframework.security.web.access.intercept.AuthorizationFilter@53d6e959]
+2024-04-27 15:07:49 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Mvc [pattern='/actuator/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-04-27 15:07:49 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Mvc [pattern='/actuator/**']
+2024-04-27 15:07:49 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Mvc [pattern='/encrypt/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-04-27 15:07:49 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Mvc [pattern='/encrypt/**']
+2024-04-27 15:07:49 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Mvc [pattern='/decrypt/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-04-27 15:07:49 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Mvc [pattern='/decrypt/**']
+2024-04-27 15:07:53 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2024-04-27 15:07:53 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
+2024-04-27 15:07:53 [main] INFO  c.s.m.d.config.server.ConfigServer - Started ConfigServer in 8.152 seconds (process running for 9.216)
+2024-04-27 15:07:53 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-27 15:07:53 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-04-27 15:07:53 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-04-27 15:07:53 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.EncryptionController - Encrypted data
+2024-04-27 15:08:26 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.EncryptionController - Encrypted data
+2024-04-27 15:09:17 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-04-27 15:09:18 [main] INFO  c.s.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2024-04-27 15:09:19 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=8ffe3a25-9917-32fe-8b04-ae4f99fb3220
+2024-04-27 15:09:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
+2024-04-27 15:09:20 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2024-04-27 15:09:20 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-27 15:09:20 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-27 15:09:20 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-27 15:09:20 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1765 ms
+2024-04-27 15:09:20 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@16d431b4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c0b51da, org.springframework.security.web.context.SecurityContextHolderFilter@4dc52559, org.springframework.security.web.header.HeaderWriterFilter@463afa6e, org.springframework.web.filter.CorsFilter@7558633, org.springframework.security.web.csrf.CsrfFilter@4c18516, org.springframework.security.web.authentication.logout.LogoutFilter@17ff8810, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@34136bd1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6d0e45a5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5657967b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@285a4fe3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@119290b9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@640d604, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61394494, org.springframework.security.web.access.ExceptionTranslationFilter@637c840d, org.springframework.security.web.access.intercept.AuthorizationFilter@26f0141]
+2024-04-27 15:09:20 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Mvc [pattern='/actuator/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-04-27 15:09:20 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Mvc [pattern='/actuator/**']
+2024-04-27 15:09:20 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Mvc [pattern='/encrypt/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-04-27 15:09:20 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Mvc [pattern='/encrypt/**']
+2024-04-27 15:09:20 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Mvc [pattern='/decrypt/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-04-27 15:09:20 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Mvc [pattern='/decrypt/**']
+2024-04-27 15:09:23 [main] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Error occured cloning to base directory.
+org.eclipse.jgit.api.errors.TransportException: https://github.com/ShonJacob/microservicesdemo_configserver.git: not authorized
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:249)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:325)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:191)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.cloneToBasedir(JGitEnvironmentRepository.java:658)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.initClonedRepository(JGitEnvironmentRepository.java:362)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.afterPropertiesSet(JGitEnvironmentRepository.java:283)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.afterPropertiesSet(MultipleJGitEnvironmentRepository.java:71)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.shonjacob.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:12)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/ShonJacob/microservicesdemo_configserver.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:696)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:153)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:105)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1462)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:238)
+	... 24 common frames omitted
+2024-04-27 15:09:23 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: https://github.com/ShonJacob/microservicesdemo_configserver.git: not authorized
+2024-04-27 15:09:23 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-04-27 15:09:23 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-27 15:09:23 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: https://github.com/ShonJacob/microservicesdemo_configserver.git: not authorized
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.shonjacob.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:12)
+Caused by: org.eclipse.jgit.api.errors.TransportException: https://github.com/ShonJacob/microservicesdemo_configserver.git: not authorized
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:249)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:325)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:191)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.cloneToBasedir(JGitEnvironmentRepository.java:658)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.initClonedRepository(JGitEnvironmentRepository.java:362)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.afterPropertiesSet(JGitEnvironmentRepository.java:283)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.afterPropertiesSet(MultipleJGitEnvironmentRepository.java:71)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 16 common frames omitted
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/ShonJacob/microservicesdemo_configserver.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:696)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:153)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:105)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1462)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:238)
+	... 24 common frames omitted
+2024-04-27 15:37:41 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-04-27 15:37:41 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [org.springframework.cloud.bootstrap.BootstrapImportSelectorConfiguration]: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+2024-04-27 15:37:41 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-27 15:37:41 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [org.springframework.cloud.bootstrap.BootstrapImportSelectorConfiguration]: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:544)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:746)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:743)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:714)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:183)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:149)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:195)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:114)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:77)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:369)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:329)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.shonjacob.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:12)
+Caused by: java.lang.IllegalStateException: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:220)
+	at org.springframework.context.annotation.ConfigurationClassParser.processMemberClasses(ConfigurationClassParser.java:382)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:273)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:534)
+	... 34 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'ENCRYPT_KEY' in value "${ENCRYPT_KEY}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveNestedPlaceholders(AbstractPropertyResolver.java:230)
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:88)
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:62)
+	at org.springframework.core.env.AbstractEnvironment.getProperty(AbstractEnvironment.java:552)
+	at org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$KeyCondition.hasProperty(EncryptionBootstrapConfiguration.java:131)
+	at org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$KeyCondition.getMatchOutcome(EncryptionBootstrapConfiguration.java:124)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 40 common frames omitted
+2024-04-27 15:37:41 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [org.springframework.cloud.bootstrap.BootstrapImportSelectorConfiguration]: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:544)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:746)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:743)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:714)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:183)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:149)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:195)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:114)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:77)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:369)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:329)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.shonjacob.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:12)
+Caused by: java.lang.IllegalStateException: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:220)
+	at org.springframework.context.annotation.ConfigurationClassParser.processMemberClasses(ConfigurationClassParser.java:382)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:273)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:534)
+	... 34 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'ENCRYPT_KEY' in value "${ENCRYPT_KEY}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveNestedPlaceholders(AbstractPropertyResolver.java:230)
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:88)
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:62)
+	at org.springframework.core.env.AbstractEnvironment.getProperty(AbstractEnvironment.java:552)
+	at org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$KeyCondition.hasProperty(EncryptionBootstrapConfiguration.java:131)
+	at org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$KeyCondition.getMatchOutcome(EncryptionBootstrapConfiguration.java:124)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 40 common frames omitted
+2024-04-27 15:48:07 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-04-27 15:48:07 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [org.springframework.cloud.bootstrap.BootstrapImportSelectorConfiguration]: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+2024-04-27 15:48:07 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-27 15:48:07 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [org.springframework.cloud.bootstrap.BootstrapImportSelectorConfiguration]: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:544)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:746)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:743)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:714)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:183)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:149)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:195)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:114)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:77)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:369)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:329)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.shonjacob.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:12)
+Caused by: java.lang.IllegalStateException: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:220)
+	at org.springframework.context.annotation.ConfigurationClassParser.processMemberClasses(ConfigurationClassParser.java:382)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:273)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:534)
+	... 34 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'ENCRYPT_KEY' in value "${ENCRYPT_KEY}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveNestedPlaceholders(AbstractPropertyResolver.java:230)
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:88)
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:62)
+	at org.springframework.core.env.AbstractEnvironment.getProperty(AbstractEnvironment.java:552)
+	at org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$KeyCondition.hasProperty(EncryptionBootstrapConfiguration.java:131)
+	at org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$KeyCondition.getMatchOutcome(EncryptionBootstrapConfiguration.java:124)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 40 common frames omitted
+2024-04-27 15:48:07 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [org.springframework.cloud.bootstrap.BootstrapImportSelectorConfiguration]: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:544)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:746)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:743)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:714)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:183)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:149)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:195)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:114)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:77)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:369)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:329)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.shonjacob.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:12)
+Caused by: java.lang.IllegalStateException: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:220)
+	at org.springframework.context.annotation.ConfigurationClassParser.processMemberClasses(ConfigurationClassParser.java:382)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:273)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:534)
+	... 34 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'ENCRYPT_KEY' in value "${ENCRYPT_KEY}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveNestedPlaceholders(AbstractPropertyResolver.java:230)
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:88)
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:62)
+	at org.springframework.core.env.AbstractEnvironment.getProperty(AbstractEnvironment.java:552)
+	at org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$KeyCondition.hasProperty(EncryptionBootstrapConfiguration.java:131)
+	at org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$KeyCondition.getMatchOutcome(EncryptionBootstrapConfiguration.java:124)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 40 common frames omitted
+2024-04-27 15:48:32 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-04-27 15:48:33 [main] INFO  c.s.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2024-04-27 15:48:34 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=8ffe3a25-9917-32fe-8b04-ae4f99fb3220
+2024-04-27 15:48:35 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
+2024-04-27 15:48:35 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2024-04-27 15:48:35 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-27 15:48:35 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-27 15:48:35 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-27 15:48:35 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1813 ms
+2024-04-27 15:48:35 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@16d431b4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c0b51da, org.springframework.security.web.context.SecurityContextHolderFilter@4dc52559, org.springframework.security.web.header.HeaderWriterFilter@463afa6e, org.springframework.web.filter.CorsFilter@7558633, org.springframework.security.web.csrf.CsrfFilter@4c18516, org.springframework.security.web.authentication.logout.LogoutFilter@17ff8810, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@34136bd1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6d0e45a5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5657967b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@285a4fe3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@119290b9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@640d604, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61394494, org.springframework.security.web.access.ExceptionTranslationFilter@637c840d, org.springframework.security.web.access.intercept.AuthorizationFilter@26f0141]
+2024-04-27 15:48:35 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Mvc [pattern='/actuator/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-04-27 15:48:35 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Mvc [pattern='/actuator/**']
+2024-04-27 15:48:35 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Mvc [pattern='/encrypt/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-04-27 15:48:35 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Mvc [pattern='/encrypt/**']
+2024-04-27 15:48:35 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Mvc [pattern='/decrypt/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-04-27 15:48:35 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Mvc [pattern='/decrypt/**']
+2024-04-27 15:48:38 [main] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Error occured cloning to base directory.
+org.eclipse.jgit.api.errors.TransportException: https://github.com/ShonJacob/microservicesdemo_configserver.git: not authorized
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:249)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:325)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:191)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.cloneToBasedir(JGitEnvironmentRepository.java:658)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.initClonedRepository(JGitEnvironmentRepository.java:362)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.afterPropertiesSet(JGitEnvironmentRepository.java:283)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.afterPropertiesSet(MultipleJGitEnvironmentRepository.java:71)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.shonjacob.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:12)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/ShonJacob/microservicesdemo_configserver.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:696)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:153)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:105)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1462)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:238)
+	... 24 common frames omitted
+2024-04-27 15:48:38 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: https://github.com/ShonJacob/microservicesdemo_configserver.git: not authorized
+2024-04-27 15:48:38 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-04-27 15:48:38 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-27 15:48:38 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: https://github.com/ShonJacob/microservicesdemo_configserver.git: not authorized
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.shonjacob.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:12)
+Caused by: org.eclipse.jgit.api.errors.TransportException: https://github.com/ShonJacob/microservicesdemo_configserver.git: not authorized
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:249)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:325)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:191)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.cloneToBasedir(JGitEnvironmentRepository.java:658)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.initClonedRepository(JGitEnvironmentRepository.java:362)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.afterPropertiesSet(JGitEnvironmentRepository.java:283)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.afterPropertiesSet(MultipleJGitEnvironmentRepository.java:71)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 16 common frames omitted
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/ShonJacob/microservicesdemo_configserver.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:696)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:153)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:105)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1462)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:238)
+	... 24 common frames omitted
+2024-04-27 15:49:32 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-04-27 15:49:33 [main] INFO  c.s.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2024-04-27 15:49:34 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=8ffe3a25-9917-32fe-8b04-ae4f99fb3220
+2024-04-27 15:49:35 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
+2024-04-27 15:49:35 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2024-04-27 15:49:35 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-27 15:49:35 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-27 15:49:35 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-27 15:49:35 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1789 ms
+2024-04-27 15:49:35 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@16d431b4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c0b51da, org.springframework.security.web.context.SecurityContextHolderFilter@4dc52559, org.springframework.security.web.header.HeaderWriterFilter@463afa6e, org.springframework.web.filter.CorsFilter@7558633, org.springframework.security.web.csrf.CsrfFilter@4c18516, org.springframework.security.web.authentication.logout.LogoutFilter@17ff8810, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@34136bd1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6d0e45a5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5657967b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@285a4fe3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@119290b9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@640d604, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61394494, org.springframework.security.web.access.ExceptionTranslationFilter@637c840d, org.springframework.security.web.access.intercept.AuthorizationFilter@26f0141]
+2024-04-27 15:49:35 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Mvc [pattern='/actuator/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-04-27 15:49:35 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Mvc [pattern='/actuator/**']
+2024-04-27 15:49:35 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Mvc [pattern='/encrypt/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-04-27 15:49:35 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Mvc [pattern='/encrypt/**']
+2024-04-27 15:49:35 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Mvc [pattern='/decrypt/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-04-27 15:49:35 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Mvc [pattern='/decrypt/**']
+2024-04-27 15:49:38 [main] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Error occured cloning to base directory.
+org.eclipse.jgit.api.errors.TransportException: https://github.com/ShonJacob/microservicesdemo_configserver.git: not authorized
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:249)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:325)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:191)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.cloneToBasedir(JGitEnvironmentRepository.java:658)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.initClonedRepository(JGitEnvironmentRepository.java:362)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.afterPropertiesSet(JGitEnvironmentRepository.java:283)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.afterPropertiesSet(MultipleJGitEnvironmentRepository.java:71)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.shonjacob.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:12)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/ShonJacob/microservicesdemo_configserver.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:696)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:153)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:105)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1462)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:238)
+	... 24 common frames omitted
+2024-04-27 15:49:38 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: https://github.com/ShonJacob/microservicesdemo_configserver.git: not authorized
+2024-04-27 15:49:38 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-04-27 15:49:38 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-27 15:49:38 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: https://github.com/ShonJacob/microservicesdemo_configserver.git: not authorized
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.shonjacob.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:12)
+Caused by: org.eclipse.jgit.api.errors.TransportException: https://github.com/ShonJacob/microservicesdemo_configserver.git: not authorized
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:249)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:325)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:191)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.cloneToBasedir(JGitEnvironmentRepository.java:658)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.initClonedRepository(JGitEnvironmentRepository.java:362)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.afterPropertiesSet(JGitEnvironmentRepository.java:283)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.afterPropertiesSet(MultipleJGitEnvironmentRepository.java:71)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 16 common frames omitted
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/ShonJacob/microservicesdemo_configserver.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:696)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:153)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:105)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1462)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:238)
+	... 24 common frames omitted
+2024-04-27 15:50:15 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-04-27 15:50:15 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [org.springframework.cloud.bootstrap.BootstrapImportSelectorConfiguration]: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+2024-04-27 15:50:15 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-27 15:50:15 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [org.springframework.cloud.bootstrap.BootstrapImportSelectorConfiguration]: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:544)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:746)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:743)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:714)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:183)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:149)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:195)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:114)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:77)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:369)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:329)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.shonjacob.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:12)
+Caused by: java.lang.IllegalStateException: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:220)
+	at org.springframework.context.annotation.ConfigurationClassParser.processMemberClasses(ConfigurationClassParser.java:382)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:273)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:534)
+	... 34 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'ENCRYPT_KEY' in value "${ENCRYPT_KEY}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveNestedPlaceholders(AbstractPropertyResolver.java:230)
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:88)
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:62)
+	at org.springframework.core.env.AbstractEnvironment.getProperty(AbstractEnvironment.java:552)
+	at org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$KeyCondition.hasProperty(EncryptionBootstrapConfiguration.java:131)
+	at org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$KeyCondition.getMatchOutcome(EncryptionBootstrapConfiguration.java:124)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 40 common frames omitted
+2024-04-27 15:50:15 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [org.springframework.cloud.bootstrap.BootstrapImportSelectorConfiguration]: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:544)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:746)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:743)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:714)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:183)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:149)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:195)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:114)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:77)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:369)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:329)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.shonjacob.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:12)
+Caused by: java.lang.IllegalStateException: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:220)
+	at org.springframework.context.annotation.ConfigurationClassParser.processMemberClasses(ConfigurationClassParser.java:382)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:273)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:534)
+	... 34 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'ENCRYPT_KEY' in value "${ENCRYPT_KEY}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveNestedPlaceholders(AbstractPropertyResolver.java:230)
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:88)
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:62)
+	at org.springframework.core.env.AbstractEnvironment.getProperty(AbstractEnvironment.java:552)
+	at org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$KeyCondition.hasProperty(EncryptionBootstrapConfiguration.java:131)
+	at org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$KeyCondition.getMatchOutcome(EncryptionBootstrapConfiguration.java:124)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 40 common frames omitted
+2024-04-27 15:50:19 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-04-27 15:50:19 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [org.springframework.cloud.bootstrap.BootstrapImportSelectorConfiguration]: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+2024-04-27 15:50:19 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-27 15:50:19 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [org.springframework.cloud.bootstrap.BootstrapImportSelectorConfiguration]: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:544)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:746)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:743)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:714)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:183)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:149)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:195)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:114)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:77)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:369)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:329)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.shonjacob.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:12)
+Caused by: java.lang.IllegalStateException: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:220)
+	at org.springframework.context.annotation.ConfigurationClassParser.processMemberClasses(ConfigurationClassParser.java:382)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:273)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:534)
+	... 34 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'ENCRYPT_KEY' in value "${ENCRYPT_KEY}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveNestedPlaceholders(AbstractPropertyResolver.java:230)
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:88)
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:62)
+	at org.springframework.core.env.AbstractEnvironment.getProperty(AbstractEnvironment.java:552)
+	at org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$KeyCondition.hasProperty(EncryptionBootstrapConfiguration.java:131)
+	at org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$KeyCondition.getMatchOutcome(EncryptionBootstrapConfiguration.java:124)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 40 common frames omitted
+2024-04-27 15:50:19 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [org.springframework.cloud.bootstrap.BootstrapImportSelectorConfiguration]: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:544)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:746)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:743)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:714)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:183)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:149)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:195)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:114)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:77)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:369)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:329)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.shonjacob.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:12)
+Caused by: java.lang.IllegalStateException: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:220)
+	at org.springframework.context.annotation.ConfigurationClassParser.processMemberClasses(ConfigurationClassParser.java:382)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:273)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:534)
+	... 34 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'ENCRYPT_KEY' in value "${ENCRYPT_KEY}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveNestedPlaceholders(AbstractPropertyResolver.java:230)
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:88)
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:62)
+	at org.springframework.core.env.AbstractEnvironment.getProperty(AbstractEnvironment.java:552)
+	at org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$KeyCondition.hasProperty(EncryptionBootstrapConfiguration.java:131)
+	at org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$KeyCondition.getMatchOutcome(EncryptionBootstrapConfiguration.java:124)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 40 common frames omitted
+2024-04-27 17:47:30 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-04-27 17:47:31 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [org.springframework.cloud.bootstrap.BootstrapImportSelectorConfiguration]: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+2024-04-27 17:47:31 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-27 17:47:31 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [org.springframework.cloud.bootstrap.BootstrapImportSelectorConfiguration]: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:544)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:746)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:743)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:714)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:183)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:149)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:195)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:114)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:77)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:369)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:329)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.shonjacob.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:12)
+Caused by: java.lang.IllegalStateException: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:220)
+	at org.springframework.context.annotation.ConfigurationClassParser.processMemberClasses(ConfigurationClassParser.java:382)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:273)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:534)
+	... 34 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'ENCRYPT_KEY' in value "${ENCRYPT_KEY}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveNestedPlaceholders(AbstractPropertyResolver.java:230)
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:88)
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:62)
+	at org.springframework.core.env.AbstractEnvironment.getProperty(AbstractEnvironment.java:552)
+	at org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$KeyCondition.hasProperty(EncryptionBootstrapConfiguration.java:131)
+	at org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$KeyCondition.getMatchOutcome(EncryptionBootstrapConfiguration.java:124)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 40 common frames omitted
+2024-04-27 17:47:31 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [org.springframework.cloud.bootstrap.BootstrapImportSelectorConfiguration]: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:544)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:746)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:743)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:714)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:183)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:149)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:195)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:114)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:77)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:369)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:329)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.shonjacob.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:12)
+Caused by: java.lang.IllegalStateException: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:220)
+	at org.springframework.context.annotation.ConfigurationClassParser.processMemberClasses(ConfigurationClassParser.java:382)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:273)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:534)
+	... 34 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'ENCRYPT_KEY' in value "${ENCRYPT_KEY}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveNestedPlaceholders(AbstractPropertyResolver.java:230)
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:88)
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:62)
+	at org.springframework.core.env.AbstractEnvironment.getProperty(AbstractEnvironment.java:552)
+	at org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$KeyCondition.hasProperty(EncryptionBootstrapConfiguration.java:131)
+	at org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$KeyCondition.getMatchOutcome(EncryptionBootstrapConfiguration.java:124)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 40 common frames omitted
+2024-04-27 17:49:42 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-04-27 17:49:43 [main] INFO  c.s.m.d.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2024-04-27 17:49:44 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=8ffe3a25-9917-32fe-8b04-ae4f99fb3220
+2024-04-27 17:49:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
+2024-04-27 17:49:45 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2024-04-27 17:49:45 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-27 17:49:45 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-27 17:49:45 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-27 17:49:45 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1816 ms
+2024-04-27 17:49:46 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@22791b75, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@64f4f12, org.springframework.security.web.context.SecurityContextHolderFilter@cdb3c85, org.springframework.security.web.header.HeaderWriterFilter@1595d2b2, org.springframework.web.filter.CorsFilter@37d28938, org.springframework.security.web.csrf.CsrfFilter@16cb9989, org.springframework.security.web.authentication.logout.LogoutFilter@6094de13, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6870cfac, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@46f73ffa, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7d0cd23c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2801827a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@33d28f0a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@48d739f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17c4dc5b, org.springframework.security.web.access.ExceptionTranslationFilter@12abcd1e, org.springframework.security.web.access.intercept.AuthorizationFilter@64656b9e]
+2024-04-27 17:49:46 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Mvc [pattern='/actuator/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-04-27 17:49:46 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Mvc [pattern='/actuator/**']
+2024-04-27 17:49:46 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Mvc [pattern='/encrypt/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-04-27 17:49:46 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Mvc [pattern='/encrypt/**']
+2024-04-27 17:49:46 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Mvc [pattern='/decrypt/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-04-27 17:49:46 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Mvc [pattern='/decrypt/**']
+2024-04-27 17:49:49 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2024-04-27 17:49:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
+2024-04-27 17:49:49 [main] INFO  c.s.m.d.config.server.ConfigServer - Started ConfigServer in 8.024 seconds (process running for 9.029)
+2024-04-27 18:33:42 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-04-27 18:33:43 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [org.springframework.cloud.bootstrap.BootstrapImportSelectorConfiguration]: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+2024-04-27 18:33:43 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-27 18:33:43 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [org.springframework.cloud.bootstrap.BootstrapImportSelectorConfiguration]: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:544)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:746)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:743)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:714)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:183)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:149)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:195)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:114)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:77)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:369)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:329)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.shonjacob.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:12)
+Caused by: java.lang.IllegalStateException: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:220)
+	at org.springframework.context.annotation.ConfigurationClassParser.processMemberClasses(ConfigurationClassParser.java:382)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:273)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:534)
+	... 34 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'ENCRYPT_KEY' in value "${ENCRYPT_KEY}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveNestedPlaceholders(AbstractPropertyResolver.java:230)
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:88)
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:62)
+	at org.springframework.core.env.AbstractEnvironment.getProperty(AbstractEnvironment.java:552)
+	at org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$KeyCondition.hasProperty(EncryptionBootstrapConfiguration.java:131)
+	at org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$KeyCondition.getMatchOutcome(EncryptionBootstrapConfiguration.java:124)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 40 common frames omitted
+2024-04-27 18:33:43 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [org.springframework.cloud.bootstrap.BootstrapImportSelectorConfiguration]: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:544)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:746)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:743)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:714)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:183)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:149)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:195)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:114)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:77)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:369)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:329)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.shonjacob.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:12)
+Caused by: java.lang.IllegalStateException: Error processing condition on org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$RsaEncryptionConfiguration
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:220)
+	at org.springframework.context.annotation.ConfigurationClassParser.processMemberClasses(ConfigurationClassParser.java:382)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:273)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:534)
+	... 34 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'ENCRYPT_KEY' in value "${ENCRYPT_KEY}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveNestedPlaceholders(AbstractPropertyResolver.java:230)
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:88)
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:62)
+	at org.springframework.core.env.AbstractEnvironment.getProperty(AbstractEnvironment.java:552)
+	at org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$KeyCondition.hasProperty(EncryptionBootstrapConfiguration.java:131)
+	at org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$KeyCondition.getMatchOutcome(EncryptionBootstrapConfiguration.java:124)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 40 common frames omitted
